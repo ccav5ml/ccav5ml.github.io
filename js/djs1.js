@@ -42,7 +42,7 @@ window.onload = function() {
 			alert('你又调皮了');
 			return;
 		}
-		oTxtTarget.innerHTML = sYear + ' 年 ' + sMonth + ' 月 ' + sDay + ' 日 ';
+		oTxtTarget.innerHTML = '<span>'+ sYear + '</span> 年 <span>' + sMonth + '</span> 月 <span>' + sDay + '</span> 日 ';
 		var oEndDate = new Date(sYear, (sMonth - 1), sDay);
 		var oNowDate = new Date();
 		var iRemain = 0;
