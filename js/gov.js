@@ -1,12 +1,7 @@
-$(document).ready(function(){
-	//高度设置
-	var height = $(window).height();
-	$('#myiframe').height(height);
-})
-function changeFrameHeight(){
-	var ifm= document.getElementById("myiframe");
-	$('#myiframe').height($(window).height());
+function resizeIframe() {
+	var frame = document.getElementById('myiframe');
+	frame.style.height = (window.innerHeight - 150) + 'px';
 }
-window.onresize=function(){
-	changeFrameHeight();
-}
+
+window.addEventListener('resize', resizeIframe);
+resizeIframe(); // 初始化调整iframe高度
