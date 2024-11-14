@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+	<title>自定义倒计时</title>
+	<link rel="stylesheet" href="css/djs.css">
+	<script type="text/javascript" src="js/djs1.js"></script>
+</head>
+<body>
+	<div id="navigation">
+		<p><a href="/" target="_blank">节假日倒计时</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.gov.cn/zhengce/content/2022-12/08/content_5730844.htm" target="_blank">2023年节假日安排</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.gov.cn/zhengce/content/202310/content_6911527.htm" target="_blank">2024年节假日安排</a></p>
+	</div>
+	<hr />
+	<div id="time">
+		指定日期: <input type="number" min="2022" max="2099" value="2049" /> 年
+		<input type="number" min="1" max="12" value="10" /> 月
+		<input type="number" min="1" max="31" value="1" />日
+		<p><button id="btn1">开始倒计时</button><button id="btn2">停止倒计时</button></p>
+		<p>现在距离 <b>???? 年 ?? 月 ?? 日</b> 还剩：</p>
+		<div id="start"> <span>??</span>天 <span>??</span>小时 <span>??</span>分 <span>??</span>秒 </div>
+	</div>
+</body>
+</html>
