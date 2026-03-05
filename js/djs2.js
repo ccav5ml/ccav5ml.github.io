@@ -168,7 +168,7 @@ if (today<'2026-04-05') {
 	countDownT( "丙午马年除夕",2027,2,5,function( msg ) {day5.innerHTML = msg;} )
 	countDownT( "丁未羊年春节",2027,2,6,function( msg ) {day6.innerHTML = msg;} )
 	countDownT( "2027年清明节",2027,4,5,function( msg ) {day7.innerHTML = msg;} )
-	countDownT( "2027年劳动节",2027,5,1,function( msg ) {day8.innerHTML = msg;} ))
+	countDownT( "2027年劳动节",2027,5,1,function( msg ) {day8.innerHTML = msg;} )
 	countDownT( "2027年儿童节",2027,6,1,function( msg ) {day9.innerHTML = msg;} )
 } else if (today<'2026-09-25') {
 	countDownT( "2026年中秋节",2026,9,25,function( msg ) {day1.innerHTML = msg;} )
