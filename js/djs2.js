@@ -85,7 +85,7 @@ function choosePic() {
 	if (week  == 5) {
 		var myPix = new Array("Friday.jpg","Friday1.jpg","Friday2.jpg");
 	} else {
-		var myPix = new Array("workday.jpg","workday01.jpg","workday02.jpg","workday03.jpg","workday04.jpg","workday05.jpg","workday06.jpg","workday07.jpg","workday08.jpg","workday09.jpg","workday10.jpg","workday11.jpg","workday12.jpg");
+		var myPix = new Array("workday.jpg","workday01.jpg","workday02.jpg","workday03.jpg","workday04.jpg","workday05.jpg","workday06.jpg","workday07.jpg","workday08.jpg","workday09.jpg","workday10.jpg","workday11.jpg","workday12.jpg","workday13.jpg");
 	}
 	var randomNum = Math.floor((Math.random() * myPix.length));
 	document.getElementById("fishimg").src = "img/"+myPix[randomNum];
@@ -130,57 +130,7 @@ var day7 = document.getElementById('day7');
 var day8 = document.getElementById('day8');
 var day9 = document.getElementById('day9');
 
-if (today<'2026-04-05') {
-	countDownT( "2026年清明节",2026,4,5,function( msg ) {day1.innerHTML = msg;} )
-	countDownT( "2026年劳动节",2026,5,1,function( msg ) {day2.innerHTML = msg;} )
-	countDownT( "2026年儿童节",2026,6,1,function( msg ) {day3.innerHTML = msg;} )
-	countDownT( "2026年端午节",2026,6,19,function( msg ) {day4.innerHTML = msg;} )
-	countDownT( "2026年中秋节",2026,9,25,function( msg ) {day5.innerHTML = msg;} )
-	countDownT( "2026年国庆节",2026,10,1,function( msg ) {day6.innerHTML = msg;} )
-	countDownT( "2027年元旦节",2027,1,1,function( msg ) {day7.innerHTML = msg;} )
-	countDownT( "丙午马年除夕",2027,2,5,function( msg ) {day8.innerHTML = msg;} )
-	countDownT( "丁未羊年春节",2027,2,6,function( msg ) {day9.innerHTML = msg;} )
-} else if (today<'2026-05-01') {
-	countDownT( "2026年劳动节",2026,5,1,function( msg ) {day1.innerHTML = msg;} )
-	countDownT( "2026年儿童节",2026,6,1,function( msg ) {day2.innerHTML = msg;} )
-	countDownT( "2026年端午节",2026,6,19,function( msg ) {day3.innerHTML = msg;} )
-	countDownT( "2026年中秋节",2026,9,25,function( msg ) {day4.innerHTML = msg;} )
-	countDownT( "2026年国庆节",2026,10,1,function( msg ) {day5.innerHTML = msg;} )
-	countDownT( "2027年元旦节",2027,1,1,function( msg ) {day6.innerHTML = msg;} )
-	countDownT( "丙午马年除夕",2027,2,5,function( msg ) {day7.innerHTML = msg;} )
-	countDownT( "丁未羊年春节",2027,2,6,function( msg ) {day8.innerHTML = msg;} )
-	countDownT( "2027年清明节",2027,4,5,function( msg ) {day9.innerHTML = msg;} )
-} else if (today<'2026-06-01') {
-	countDownT( "2026年儿童节",2026,6,1,function( msg ) {day1.innerHTML = msg;} )
-	countDownT( "2026年端午节",2026,6,19,function( msg ) {day2.innerHTML = msg;} )
-	countDownT( "2026年中秋节",2026,9,25,function( msg ) {day3.innerHTML = msg;} )
-	countDownT( "2026年国庆节",2026,10,1,function( msg ) {day4.innerHTML = msg;} )
-	countDownT( "2027年元旦节",2027,1,1,function( msg ) {day5.innerHTML = msg;} )
-	countDownT( "丙午马年除夕",2027,2,5,function( msg ) {day6.innerHTML = msg;} )
-	countDownT( "丁未羊年春节",2027,2,6,function( msg ) {day7.innerHTML = msg;} )
-	countDownT( "2027年清明节",2027,4,5,function( msg ) {day8.innerHTML = msg;} )
-	countDownT( "2027年劳动节",2027,5,1,function( msg ) {day9.innerHTML = msg;} )
-} else if (today<'2026-06-19') {
-	countDownT( "2026年端午节",2026,6,19,function( msg ) {day1.innerHTML = msg;} )
-	countDownT( "2026年中秋节",2026,9,25,function( msg ) {day2.innerHTML = msg;} )
-	countDownT( "2026年国庆节",2026,10,1,function( msg ) {day3.innerHTML = msg;} )
-	countDownT( "2027年元旦节",2027,1,1,function( msg ) {day4.innerHTML = msg;} )
-	countDownT( "丙午马年除夕",2027,2,5,function( msg ) {day5.innerHTML = msg;} )
-	countDownT( "丁未羊年春节",2027,2,6,function( msg ) {day6.innerHTML = msg;} )
-	countDownT( "2027年清明节",2027,4,5,function( msg ) {day7.innerHTML = msg;} )
-	countDownT( "2027年劳动节",2027,5,1,function( msg ) {day8.innerHTML = msg;} )
-	countDownT( "2027年儿童节",2027,6,1,function( msg ) {day9.innerHTML = msg;} )
-} else if (today<'2026-09-25') {
-	countDownT( "2026年中秋节",2026,9,25,function( msg ) {day1.innerHTML = msg;} )
-	countDownT( "2026年国庆节",2026,10,1,function( msg ) {day2.innerHTML = msg;} )
-	countDownT( "2027年元旦节",2027,1,1,function( msg ) {day3.innerHTML = msg;} )
-	countDownT( "丙午马年除夕",2027,2,5,function( msg ) {day4.innerHTML = msg;} )
-	countDownT( "丁未羊年春节",2027,2,6,function( msg ) {day5.innerHTML = msg;} )
-	countDownT( "2027年清明节",2027,4,5,function( msg ) {day6.innerHTML = msg;} )
-	countDownT( "2027年劳动节",2027,5,1,function( msg ) {day7.innerHTML = msg;} )
-	countDownT( "2027年儿童节",2027,6,1,function( msg ) {day8.innerHTML = msg;} )
-	countDownT( "2027年端午节",2027,6,9,function( msg ) {day9.innerHTML = msg;} )
-} else if (today<'2026-10-01') {
+if (today<'2026-10-01') {
 	countDownT( "2026年国庆节",2026,10,1,function( msg ) {day1.innerHTML = msg;} )
 	countDownT( "2027年元旦节",2027,1,1,function( msg ) {day2.innerHTML = msg;} )
 	countDownT( "丙午马年除夕",2027,2,5,function( msg ) {day3.innerHTML = msg;} )
@@ -200,4 +150,44 @@ if (today<'2026-04-05') {
 	countDownT( "2027年端午节",2027,6,9,function( msg ) {day7.innerHTML = msg;} )
 	countDownT( "2027年中秋节",2027,9,15,function( msg ) {day8.innerHTML = msg;} )
 	countDownT( "2027年国庆节",2027,10,1,function( msg ) {day9.innerHTML = msg;} )
+} else if (today<'2027-02-05') {
+	countDownT( "丙午马年除夕",2027,2,5,function( msg ) {day1.innerHTML = msg;} )
+	countDownT( "丁未羊年春节",2027,2,6,function( msg ) {day2.innerHTML = msg;} )
+	countDownT( "2027年清明节",2027,4,5,function( msg ) {day3.innerHTML = msg;} )
+	countDownT( "2027年劳动节",2027,5,1,function( msg ) {day4.innerHTML = msg;} )
+	countDownT( "2027年儿童节",2027,6,1,function( msg ) {day5.innerHTML = msg;} )
+	countDownT( "2027年端午节",2027,6,9,function( msg ) {day6.innerHTML = msg;} )
+	countDownT( "2027年中秋节",2027,9,15,function( msg ) {day7.innerHTML = msg;} )
+	countDownT( "2027年国庆节",2027,10,1,function( msg ) {day8.innerHTML = msg;} )
+	countDownT( "2028年元旦节",2028,1,1,function( msg ) {day9.innerHTML = msg;} )
+} else if (today<'2027-02-06') {
+	countDownT( "丁未羊年春节",2027,2,6,function( msg ) {day1.innerHTML = msg;} )
+	countDownT( "2027年清明节",2027,4,5,function( msg ) {day2.innerHTML = msg;} )
+	countDownT( "2027年劳动节",2027,5,1,function( msg ) {day3.innerHTML = msg;} )
+	countDownT( "2027年儿童节",2027,6,1,function( msg ) {day4.innerHTML = msg;} )
+	countDownT( "2027年端午节",2027,6,9,function( msg ) {day5.innerHTML = msg;} )
+	countDownT( "2027年中秋节",2027,9,15,function( msg ) {day6.innerHTML = msg;} )
+	countDownT( "2027年国庆节",2027,10,1,function( msg ) {day7.innerHTML = msg;} )
+	countDownT( "2028年元旦节",2028,1,1,function( msg ) {day8.innerHTML = msg;} )
+	countDownT( "丁未羊年除夕",2028,1,25,function( msg ) {day9.innerHTML = msg;} )
+} else if (today<'2027-04-05') {
+	countDownT( "2027年清明节",2027,4,5,function( msg ) {day1.innerHTML = msg;} )
+	countDownT( "2027年劳动节",2027,5,1,function( msg ) {day2.innerHTML = msg;} )
+	countDownT( "2027年儿童节",2027,6,1,function( msg ) {day3.innerHTML = msg;} )
+	countDownT( "2027年端午节",2027,6,9,function( msg ) {day4.innerHTML = msg;} )
+	countDownT( "2027年中秋节",2027,9,15,function( msg ) {day5.innerHTML = msg;} )
+	countDownT( "2027年国庆节",2027,10,1,function( msg ) {day6.innerHTML = msg;} )
+	countDownT( "2028年元旦节",2028,1,1,function( msg ) {day7.innerHTML = msg;} )
+	countDownT( "丁未羊年除夕",2028,1,25,function( msg ) {day8.innerHTML = msg;} )
+	countDownT( "戊申猴年春节",2028,1,26,function( msg ) {day9.innerHTML = msg;} )
+} else if (today<'2027-05-01') {
+	countDownT( "2027年劳动节",2027,5,1,function( msg ) {day1.innerHTML = msg;} )
+	countDownT( "2027年儿童节",2027,6,1,function( msg ) {day2.innerHTML = msg;} )
+	countDownT( "2027年端午节",2027,6,9,function( msg ) {day3.innerHTML = msg;} )
+	countDownT( "2027年中秋节",2027,9,15,function( msg ) {day4.innerHTML = msg;} )
+	countDownT( "2027年国庆节",2027,10,1,function( msg ) {day5.innerHTML = msg;} )
+	countDownT( "2028年元旦节",2028,1,1,function( msg ) {day6.innerHTML = msg;} )
+	countDownT( "丁未羊年除夕",2028,1,25,function( msg ) {day7.innerHTML = msg;} )
+	countDownT( "戊申猴年春节",2028,1,26,function( msg ) {day8.innerHTML = msg;} )
+	countDownT( "2028年清明节",2028,4,4,function( msg ) {day9.innerHTML = msg;} )
 }
